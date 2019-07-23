@@ -31,7 +31,6 @@ public class StudentServiceUnitTest {
     @Test
     public void createStudentSuccessTest() {
         Student student = Student.builder()
-                .recordIdentifier(UUID.randomUUID().toString())
                 .rollNumber("UE6349")
                 .firstName("Pulkit")
                 .lastName("Gupta1")
