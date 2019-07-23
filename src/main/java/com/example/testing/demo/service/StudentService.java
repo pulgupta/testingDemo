@@ -21,4 +21,5 @@ public class StudentService {
     public Student getStudent(String id) {
         return repository.findById(id).get();
     }
+
 }
