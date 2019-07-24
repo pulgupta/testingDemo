@@ -1,4 +1,4 @@
-package com.example.testing.demo.Repository;
+package com.example.testing.demo.repository;
 
 import com.example.testing.demo.model.Student;
 import org.springframework.data.mongodb.repository.MongoRepository;

@@ -12,12 +12,12 @@ public class StudentContoller {
     @Autowired
     StudentService service;
 
-    @RequestMapping(method = RequestMethod.POST)
+    @PostMapping
     public Student saveStudent(@RequestBody  Student student){
         return service.saveStudent(student);
     }
 
-    @RequestMapping(value="/{id}", method = RequestMethod.GET)
+    @GetMapping(value="/{id}")
     public Student getStudent(@PathVariable String id){
         return service.getStudent(id);
     }

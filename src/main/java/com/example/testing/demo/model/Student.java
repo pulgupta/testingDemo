@@ -2,8 +2,6 @@ package com.example.testing.demo.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.Value;
 import org.springframework.data.annotation.Id;
 
 import java.util.Objects;
